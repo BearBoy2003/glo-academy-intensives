@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delivery Food - доставка еды на дом</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -12,7 +15,7 @@
     <div class="container">
         <header class="header">
             <img class="logo" src="img/logo.svg" alt="logo">
-            <input class="input search-input" type="text" placeholder="Адрес доставки">
+            <input class="input input-address" type="text" placeholder="Адрес доставки">
             <div class="header-btn">
                 <button class="btn btn-primary">
                     <img class="btn-icon" src="img/user.svg" alt="user">
@@ -24,6 +27,147 @@
                 </button>
             </div>
         </header>
+
+        <section class="promo">
+            <h1 class="promo-title">Онлайн-сервис <br>доставки еды на дом</h1>
+            <p class="promo-text">Блюда из любимого ресторана привезет <br>курьер в перчатках, маске и с антисептиком</p>
+        </section>
+
+        <section class="restaurant">
+            <div class="section-heading">
+                <h2 class="section-title">Рестораны</h2>
+                <input type="text" class="input input-search" placeholder="Поиск блюд и ресторанов">
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img class="card-img" src="img/cards/01.png" alt="Пицца Плюс">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">Пицца плюс</h2>
+                            <span class="card-tag tag">50 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 900 ₽</div>
+                            <div class="category">Пицца</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img class="card-img" src="img/cards/02.png" alt="Тануки">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">Тануки</h2>
+                            <span class="card-tag tag">60 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 1200 ₽</div>
+                            <div class="category">Суши, роллы</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img class="card-img" src="img/cards/03.png" alt="FoodBand">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">FoodBand</h2>
+                            <span class="card-tag tag">40 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 450 ₽</div>
+                            <div class="category">Пицца</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img class="card-img" src="img/cards/04.png" alt="Жадина-пицца">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">Ацумари</h2>
+                            <span class="card-tag tag">55 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 500 ₽</div>
+                            <div class="category">Суши, роллы</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img class="card-img" src="img/cards/05.png" alt="Точка еды">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">Точка еды</h2>
+                            <span class="card-tag tag">75 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 1000 ₽</div>
+                            <div class="category">Суши, пицца</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+                <div class="card">
+                    <img class="card-img" src="img/cards/06.png" alt="PizzaBurger">
+                    <div class="card-text">
+                        <div class="card-heading">
+                            <h2 class="card-title">PizzaBurger</h2>
+                            <span class="card-tag tag">45 мин</span>
+                        </div>
+                        <!-- /.card-heading -->
+                         <div class="card-info">
+                            <div class="rating">
+                                <img src="img/rating-star.svg" alt="rating-star">
+                                4.5
+                            </div>
+                            <div class="price">От 700 ₽</div>
+                            <div class="category">Пицца</div>
+                         </div>
+                         <!-- /.card-info -->
+                    </div>
+                    <!-- /.card-text -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.cards -->
+        </section>
     </div>
 </body>
 
