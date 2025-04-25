@@ -7,6 +7,7 @@
   <title>Охотники за привидениями: Наследники</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -14,16 +15,18 @@
   <header class="header">
     <img class="logo" width="68" src="img/logo.svg" alt="Logo: film" />
     <div class="line"></div>
-    <input class="search-input" type="text" placeholder="Поиск по фильмам..." />
-    <nav class="navigation">
-      <a href="#" class="navigation-link">Фильмы</a>
-      <a href="#" class="navigation-link">ТВ</a>
-      <a href="#" class="navigation-link">Новости</a>
-      <a href="#" class="navigation-link">О сервисе</a>
-    </nav>
-    <div class="button-group">
-      <button class="button sign-up">Регистрация</button>
-      <button class="button login">Войти</button>
+    <div class="m-menu">
+      <input class="search-input" type="text" placeholder="Поиск по фильмам..." />
+      <nav class="navigation">
+        <a href="#" class="navigation-link">Фильмы</a>
+        <a href="#" class="navigation-link">ТВ</a>
+        <a href="#" class="navigation-link">Новости</a>
+        <a href="#" class="navigation-link">О сервисе</a>
+      </nav>
+      <div class="button-group">
+        <button class="button sign-up">Регистрация</button>
+        <button class="button login">Войти</button>
+      </div>
     </div>
     <div class="mobile-buttons">
       <button class="search-button">
@@ -41,10 +44,10 @@
       <div class="film-wrapper">
         <div class="film-trailer">
           <img class="poster" src="img/poster.jpg" alt="Poster" />
-          <button class="trailer-button">
+          <a class="trailer-button" data-fancybox href="https://vimeo.com/950121581">
             <img class="trailer-button-icon" src="img/play.svg" alt="play" />
             <span class="trailer-button-text">Посмотреть трейлер</span>
-          </button>
+          </a>
         </div>
         <div class="film-text">
           <h1 class="film-title">
@@ -202,6 +205,9 @@
       </div>
     </div>
   </section>
+  <script src="js/jquery-3.7.1.slim.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>
